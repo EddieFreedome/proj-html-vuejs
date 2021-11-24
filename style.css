@@ -110,26 +110,41 @@ footer{
     width: 50%;
 }
 
-.minor-hero{
-
+.img-minor-hero img{
+    width: 100%;
+    height: 100%;
 }
 
 .minor-hero h1{
     font-size: 30px;
 }
 
+.minor-hero > a {
+    color: #40c4ff;
+    margin-left: -20px;
+}
+
+/* .minor-hero a:last-child{
+    color: white;
+} */
+.go-top{
+    top: 60%;
+    right: 0;
+    height: 40px;
+    width: 40px;
+}
+
 /*Importare style utilities.scss */
 
 .btn{
     padding: 15px 20px;
-    background-color: #40c4ff;
     font-weight: 600;
     font-size: 12px;
 
 }
 
 .blue{
-    background-color: ;
+    background-color: #40c4ff;
 }
 
 .f-g{

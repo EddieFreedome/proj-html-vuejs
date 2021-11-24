@@ -21,6 +21,7 @@ export default {
 </script>
 
 <style lang="scss">
+@import './styles/app';
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
