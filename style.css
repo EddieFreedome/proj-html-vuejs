@@ -27,13 +27,20 @@ main{
 footer{
     width: 960px;
     margin: auto;
-    padding: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 100px;
     background-color: #222222;
 }
 
+.footer-menu{
+    align-items: baseline;
+}
 
-.nav-top li {
-    padding-right: 10px;
+
+.nav-top li a{
+    padding-right: 20px;
+    color: white
 }
 
 .nav-top li, .nav-top a{
@@ -52,7 +59,7 @@ footer{
 
 .logo img{
     width: 80%;
-    padding-right: 50px;
+    padding-right: 20px;
 }
 
 .links{
@@ -152,6 +159,29 @@ footer{
     width: 100%;
 }
 
+.references{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.ref1{
+
+    height: 100%;
+    align-items: center;
+}
+
+.ref2{
+    flex-grow: 10;
+
+    height: 100%;
+}
+
+.ref3{
+
+    align-items: flex-start;
+    height: 100%;
+}
+
 /*Importare style utilities.scss */
 
 .btn{
@@ -174,6 +204,10 @@ footer{
 
 .p-25{
     padding: 25px;
+}
+
+.p-10{
+    padding: 10px;
 }
 
 
@@ -207,6 +241,14 @@ footer{
 
 .text-center{
     text-align: center;
+}
+
+.pr-20{
+    margin-right: 20px;
+}
+
+.mr-10{
+    margin-right: 10px;
 }
 
 .pb-10{
@@ -283,7 +325,7 @@ footer{
 }
 
 .ln-25{
-    l
+    line-height: 25px;
 }
 
 #overlay {
