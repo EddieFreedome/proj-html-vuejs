@@ -23,7 +23,7 @@
                 <img src="@/assets/img/h5-img-1.jpg" alt="">
 
                 <a href="#" class="text-white text-center go-top p-absolute btn blue d-flex">
-                    <i class="fas fa-chevron-up text-white"></i>
+                    <i class="fa fa-angle-up" aria-hidden="true"></i>
                     <p>TOP</p>
                 </a>
 
@@ -44,23 +44,23 @@ export default {
                 },
                 {
                     img:require("@/assets/img/h5-custom-icon-2.png"),
-                    title: "Languages"
+                    title: "Software"
                 },
                 {
                     img:require("@/assets/img/h5-custom-icon-3.png"),
-                    title: "Languages"
+                    title: "Business"
                 },
                 {
                     img:require("@/assets/img/h5-custom-icon-4.png"),
-                    title: "Languages"
+                    title: "Chemistry"
                 },
                 {
                     img:require("@/assets/img/h5-custom-icon-5.png"),
-                    title: "Languages"
+                    title: "Science"
                 },
                 {
                     img:require("@/assets/img/h5-custom-icon-6.png"),
-                    title: "Languages"
+                    title: "DIY&Craft"
                 },
             ]
         }

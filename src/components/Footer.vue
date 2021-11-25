@@ -9,11 +9,12 @@
                     Class That Fit Your Busy Life. Closer To Home
                 </p>
                 <div class="phone text-white d-flex pr-20 pb-20">
-                    <i class="fas fa-phone-alt"></i>
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+
                     <p class="text-small">1-677-124-44227</p>
                 </div>
                 <div class="phone text-white d-flex">
-                    <i class="far fa-clock"></i>
+                    <i class="fa fa-clock-o" aria-hidden="true"></i>
                     <p class="text-small">Mon-Sat 8.00-18.00</p>
                 </div>
             </div>
@@ -31,15 +32,11 @@
             </div>
     
             <div class="bottom-col col1-4 d-flex pr-20 ln-20">
-                
                 <h2 class="text-white p-bottom-50">Support</h2>
-                <div v-for="service, i in supportList" :key="i">
-                    <a href="#" class="text-grey m-bot">{{service.service}}</a>
-                </div>
+                <a href="#" v-for="service, i in supportList" :key="i" class="text-grey m-bot">{{service.service}}</a>
             </div>
     
             <div class="bottom-col col1-4 d-flex pr-20 ln-20">
-                
                 <h2 class="text-white m-bot">Flexible Learning</h2>
                 <div class="img-footer">
                     <img src="@/assets/img/footer-img-1.png" alt="">
@@ -57,8 +54,10 @@
             <div class="ref2 d-flex"></div>
             <div class="ref3 f-g d-flex">
                 <p>CALL +44 300 303 0266</p>
-                <p class="mr-10">FOLLOW US </p>
-                    <i class="fab fa-twitter mr-10"></i> <i class="fab fa-instagram mr-10"></i> <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                <p class="mr-10 text-small">FOLLOW US </p>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
 
             </div>
         </div>        
@@ -71,10 +70,6 @@ export default {
     data(){
         return{
             listFooter:[
-                {
-                    mansione: "Business English",
-                    name: "Preston Marshall"
-                },
                 {
                     mansione: "Business English",
                     name: "Preston Marshall"

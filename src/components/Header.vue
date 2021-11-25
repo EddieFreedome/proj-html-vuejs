@@ -17,9 +17,10 @@
             </ul>
             <!--  -->
             <div class="icons d-flex f-g text-white">
-                <i class="fas fa-search"></i>
-                <i class="fas fa-shopping-bag"></i>
-                <i class="fas fa-bars"></i>
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                <i class="fa fa-bars" aria-hidden="true"></i>
+
             </div>
         </div>
         
